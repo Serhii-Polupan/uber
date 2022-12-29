@@ -1,0 +1,154 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    background-color: rgb(33, 33, 33);
+    height: 50px;  
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 71px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu_link {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu_item {
+    border-right: 2px dotted black;
+    padding-right: 45px;
+}
+
+.menu_item:last-child {
+    border-right: none;
+}
+
+.subheader {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, .6);
+    height: 84px;
+}
+
+.subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader_official {
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .5);
+}
+
+.subheader_call {
+    margin-top: 23px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    text-align: right;      
+}
+
+.subheader_phone {
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
+}
+
+.subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 45px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0 , 0, 0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border-radius: 4px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.subheader_btn a{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/background.jpg') center center / cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo_header {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;  
+}
+
+.promo_subheader {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 0; 
+}
+
+.promo_descr {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+  }
+
+  .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 269px;
+    height: 73px;   
+    box-shadow: inset 0 -4px 0 rgba(0, 0 , 0, 0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border-radius: 4px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
