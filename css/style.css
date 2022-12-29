@@ -4,11 +4,16 @@
 
 header {
     position: relative;
+    height: 50px;
 }
 
 nav {
+    position: fixed;
+    width: 100%;
     background-color: rgb(33, 33, 33);
-    height: 50px;  
+    height: 50px; 
+    top: 0;
+    z-index: 1000;  
 }
 
 .menu {
@@ -36,8 +41,9 @@ nav {
 }
 
 .subheader {
-    width: 100%;
     position: absolute;
+    top: 50px;
+    width: 100%;
     background-color: rgb(0, 0, 0, .6);
     height: 84px;
 }
@@ -150,5 +156,10 @@ nav {
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
+  }
+
+  .advantage {
+    min-height: 900px;
+    background: #fff;
   }
   
